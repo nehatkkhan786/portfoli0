@@ -1,0 +1,21 @@
+.home-wrapper{
+    height: calc(100vh - 80px);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.profile-image img{
+    height: 250px;
+    width: 250px;
+    object-fit:'cover';
+    border: 0.5px solid gray;
+    border-radius:8px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
