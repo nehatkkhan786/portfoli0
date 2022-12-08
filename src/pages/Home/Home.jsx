@@ -5,14 +5,24 @@ import profile from '../../assets/profile.png'
 import TwitterIcon from '@mui/icons-material/Twitter';
 import RedditIcon from '@mui/icons-material/Reddit';
 import InstagramIcon from '@mui/icons-material/Instagram';
+import {motion} from 'framer-motion'
+
 
 const Home = () => {
   return ( 
    <Box className='home-wrapper'>
-    <Box className='profile-image'>
+
+        <motion.div className='profile-image'
+         initial={{ opacity: 0, scale: 0.5 }}
+         animate={{ opacity: 1, scale: 1 }}
+         transition={{ duration: 1 }}
+        >
+             <img src={profile}/>
+        </motion.div>
+    {/* <Box className='profile-image'>
         <img src={profile}/>
-    </Box>
-    <Box sx={{mb:20, mt:2}} className='content'>
+    </Box> */}
+    <Box sx={{mb:{xs:8, md:20}, mt:2}} className='content'>
         <Typography variant='h6'>Hello! My name is</Typography>
         <Typography variant='h3'>Nehat Khan</Typography>
         <Typography sx={{fontSize:{sm:'20px', md:'30px'}}}>Developer | Ethical Hacker | Traveller</Typography>

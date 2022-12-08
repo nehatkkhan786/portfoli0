@@ -6,7 +6,7 @@ import { useNavigate } from 'react-router-dom';
 const Navbar = () => {
     const navigate = useNavigate()
   return (
-   <Box className='navbar-wrapper' sx={{display:'flex', alignItems:'center', justifyContent:'space-between', paddingLeft:5, paddingRight:5, width:'100%', height:'80px'}}>
+   <Box className='navbar-wrapper' sx={{display:'flex', alignItems:'center', justifyContent:'space-between', padding:{xs:'0px 10px', md:'0px 40px'}, width:'100%', height:'80px'}}>
         <Box className='navbar-left'>
             <Typography onClick={()=>navigate('/')} sx={{fontWeight:'bold', fontSize:'30px',letterSpacing:2, cursor:'pointer'}}>nehat.dev</Typography>
         </Box>
