@@ -11,7 +11,7 @@
     width: 250px;
     object-fit:'cover';
     border: 0.5px solid gray;
-    border-radius:8px;
+    border-radius:25px;
 }
 .content{
     display: flex;
@@ -19,3 +19,45 @@
     align-items: center;
     flex-direction: column;
 }
+
+@keyframes smoothbounceball{
+	from { transform: translate3d(0, 0, 0);}
+	to { transform: translate3d(0, 100px, 0);}
+}
+
+
+.arrow-down{
+    animation: bounce 0.5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bounce {
+    from {
+        transform: translate3d(0, 0, 0);
+    }
+    to {
+        transform: translate3d(0, 100px, 0);
+    }
+}
+.arrow-down {
+    -webkit-animation-name: bounce;
+    -webkit-animation-duration: 0.8s;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-timing-function: cubic-bezier(
+    .5, 0.05, 1, .5);
+    -webkit-animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes bounce {
+    from {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+    to {
+        -webkit-transform: translate3d(0, 50px, 0);
+        transform: translate3d(0, 50px, 0);
+    }
+}
+
+
