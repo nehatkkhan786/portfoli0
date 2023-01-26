@@ -53,7 +53,13 @@ const Skills = () => {
               </div>
               <div className='skills-right'>
                 <Typography variant='body'>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+I am a technology enthusiast with a passion for building beautiful and functional websites. With a background in network engineering and ethical hacking, I bring a unique perspective to the world of web development. My expertise in HTML, CSS, Django, Python, React, and JavaScript allows me to create visually stunning and secure websites that perform seamlessly.
+
+I have a strong desire to learn and stay on top of the latest technologies and industry trends. My goal is to use my skills to help others achieve their online objectives and bring their vision to life. Whether it's a personal portfolio or a business website, I am committed to delivering the best possible results.
+
+I am excited to share my work with you and look forward to the opportunity to work together on your next project. Let's bring your vision to life and create something amazing."
+
                 </Typography>
               </div>
 
